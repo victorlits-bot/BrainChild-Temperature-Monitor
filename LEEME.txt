@@ -1,0 +1,10 @@
+BRAINCHILD MONITOR PORTABLE
+1. Extraer todos los archivos del ZIP.
+2. Cerrar RealTimeViewer y el monitor anterior.
+3. Ejecutar Probar_programa.bat en el PC original. Seleccionar el puerto y carpeta.
+4. Comprobar temperaturas y exportacion.
+5. Ejecutar Compilar_EXE.bat (requiere internet y Python en el PC de compilacion).
+6. Copiar dist/BrainChild_Monitor.exe a una carpeta con permisos de escritura en el otro PC Windows de arquitectura compatible. No necesita Python, pero puede requerir el driver USB serial.
+7. Abrir el EXE, seleccionar puerto y carpeta, iniciar.
+La exportacion conserva el funcionamiento original: puede pausar brevemente las lecturas.
+No se ha probado con el hardware ni compilado en Windows desde este entorno.

@@ -1,0 +1,55 @@
+BrainChild Monitor – PR1006-0A0310S1
+
+Descripción del programa
+
+Aplicación de monitoreo continuo de temperaturas en tiempo real mediante el registrador BrainChild PR1006. Permite visualizar, registrar y exportar las mediciones de los sensores AI1, AI2 y AI3.
+
+1. Instalación
+
+Copiar la carpeta BrainChild Monitor desde el pendrive al escritorio del computador.
+
+Conectar el equipo BrainChild mediante el convertidor USB de comunicación.
+
+Esperar a que Windows reconozca el dispositivo.
+
+Ejecutar BrainChild_Monitor.exe haciendo doble clic.
+
+No requiere instalar Python, RealTimeViewer ni utilizar una llave USB de licencia.
+
+2. Configuración e inicio
+
+Seleccionar el puerto COM correspondiente al convertidor USB (XR21B1411 USB UART).
+
+Seleccionar la carpeta donde se guardarán los registros.
+
+Presionar «Conectar e iniciar monitoreo».
+
+Verificar que las tres temperaturas se actualicen correctamente.
+
+3. Funcionamiento
+
+Registro de temperaturas aproximadamente cada segundo.
+
+Monitoreo continuo sin límite programado de tiempo.
+
+Visualización gráfica de los últimos 60 minutos.
+
+Respaldo automático de las mediciones en CSV.
+
+Generación automática de archivos PNG y Excel cada hora.
+
+4. Guardado manual
+
+Presionar el botón «Guardar PNG + Excel» para generar una imagen del gráfico y un archivo Excel con las mediciones acumuladas, sin finalizar la sesión.
+
+5. Finalizar el monitoreo
+
+Cerrar la ventana del gráfico. El programa generará un archivo Excel final con las mediciones registradas.
+
+6. Solución de problemas
+
+Si el puerto COM no aparece, comprobar la conexión USB, actualizar la lista de puertos y verificar que el controlador del convertidor esté instalado.
+
+Cerrar RealTimeViewer u otros programas que puedan estar utilizando el mismo puerto COM.
+
+Durante el monitoreo, mantener el computador encendido y evitar que entre en suspensión.
